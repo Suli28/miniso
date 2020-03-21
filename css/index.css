@@ -1,0 +1,829 @@
+.search-box {
+  margin-top: 20px;
+  height: 30px;
+}
+
+.menu-text {
+  width: 70px;
+  height: 30px;
+  text-indent: 16px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.menu-icon {
+  width: 8px;
+  height: 5px;
+  margin-top: 12.5px;
+  background: url("../images/rednext.png") no-repeat center center;
+}
+
+.search-icon {
+  width: 12px;
+  height: 13px;
+  margin-top: 8.5px;
+  margin-left: 30px;
+  background: url("../images/garysearch.png") no-repeat center center;
+}
+
+.searching {
+  border-bottom: 1px solid #d4d4d4;
+  position: relative;
+}
+
+.searching:hover>.nav-list {
+  display: block;
+}
+
+.nav-list {
+  position: absolute;
+  left: 0;
+  top: 29px;
+  width: 120px;
+  padding: 10px;
+  box-shadow: 3px 3px 10px 1px #ddd;
+  background-color: #fff;
+  display: none;
+  z-index: 2;
+}
+
+.nav-list>div {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-list>div:hover {
+  color: #D9232E;
+}
+
+
+.nav-content {
+  margin: 0;
+}
+
+.nav-content>li {
+  float: left;
+  margin-left: 50px;
+  font-weight: bold;
+  line-height: 55px;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-content>li.liactive>span {
+  color: #D9232E;
+}
+
+.nav-content>li.liactive>.li-line {
+  display: block;
+}
+
+.nav-content>li:first-child {
+  margin-left: 0;
+}
+
+.li-line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #D9232E;
+  display: none;
+}
+
+.nav-content>li:hover>span {
+  color: #D9232E;
+}
+
+.nav-content>li:hover>.li-line {
+  display: block;
+}
+
+.banner-box {
+  margin-top: 15px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 20px;
+  position: relative;
+  border: none;
+}
+
+.carousel-indicators li.active {
+  background-color: #D9232E;
+  box-shadow: 0px 0px 0px 10px rgba(217, 35, 46, .35);
+}
+
+.carousel-indicators li>.dashed-line {
+  position: absolute;
+  left: 15px;
+  top: 4px;
+  width: 30px;
+  border-bottom: 2px dashed rgba(255, 255, 255, .85);
+}
+
+.b-content {
+  margin-top: 15px;
+}
+
+.pro-icon {
+  width: 26px;
+  margin: 0 auto;
+}
+
+.pro-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #888;
+}
+
+.pro-line {
+  width: 26px;
+  height: 3px;
+  background-color: #D9232E;
+  margin: 0 auto;
+}
+
+
+.pro-icon-active,
+.pro-line {
+  display: none;
+}
+
+
+.col-active:hover .pro-icon-noactive {
+  display: none;
+}
+
+.col-active:hover .pro-icon-active {
+  display: block;
+}
+
+.col-active:hover .pro-title {
+  color: #D9232E;
+}
+
+.col-active:hover .pro-line {
+  display: block;
+}
+
+.col-origin-active .pro-icon-noactive {
+  display: none;
+}
+
+.col-origin-active .pro-icon-active {
+  display: block;
+}
+
+.col-origin-active .pro-title {
+  color: #D9232E;
+}
+
+.col-origin-active .pro-line {
+  display: block;
+}
+
+.pro-content {
+  padding: 20px;
+}
+
+.pro-info {
+  color: #888;
+  font-size: 14px;
+}
+
+.news-title {
+  margin-top: 15px;
+}
+
+.news-title:hover {
+  color: #D9232E;
+}
+
+.one-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news-main {
+  color: #888;
+  font-size: 13px;
+}
+
+.news-btn {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+
+.footer-line {
+  height: 2px;
+  background-color: #000;
+}
+
+@media screen and (min-width: 1200px) {
+  .box {
+    width: 1200px;
+  }
+
+  .m-b-content,
+  .navs {
+    display: none;
+  }
+
+  .line {
+    height: 3px;
+    background-color: #D9232E;
+  }
+
+  .nav-content-box {
+    clear: right;
+  }
+
+  .logo-box {
+    width: 61px;
+    margin-top: -20px;
+  }
+
+  .md-search-box,
+  .m-nav-box {
+    display: none;
+  }
+
+  .l-img {
+    position: relative;
+    height: 700px;
+    background: url("../images/brandconcept.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  .l-img-title {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 42px;
+    color: #fff;
+  }
+
+  .tc {
+    height: 342.5px;
+    background-color: #fff;
+  }
+
+  .top-c {
+    margin-bottom: 15px;
+    padding-top: 60px;
+    border: 1px solid #888;
+  }
+
+  .bottom-c {
+    background: url("../images/distributor.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .tc-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 280px;
+    margin: auto;
+    height: 100px;
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+    line-height: 94px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+
+  .tc-text:hover {
+    color: #D9232E;
+    border-color: #D9232E;
+  }
+
+  .top-c-title {
+    font-size: 52px;
+  }
+
+  .intro {
+    width: 280px;
+    font-size: 14px;
+    margin: 20px auto 0;
+    color: #888;
+  }
+
+  .btn-box {
+    width: 191px;
+    height: 50px;
+    border: 1px solid #888;
+    margin: 50px auto 0;
+    padding: 0 20px;
+  }
+
+  .learn {
+    color: #888;
+    line-height: 50px;
+  }
+
+  .arr {
+    width: 33px;
+    height: 13px;
+    background: url("../images/grayarrow.png") no-repeat center center;
+    margin-top: 18.5px;
+    margin-left: 20px;
+  }
+
+  .h1-title {
+    position: relative;
+    z-index: 2;
+  }
+
+  .h1-title>span {
+    background-color: #fff;
+    padding: 0 25px;
+  }
+
+  .title-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height: 1px;
+    background-color: #aaa;
+    z-index: 1;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  .m-nav-box,
+  .m-b-content,
+  .navs {
+    display: none;
+  }
+
+  .nav-box {
+    padding: 0 15px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .logo-box {
+    width: 35px;
+    margin-top: 6px;
+  }
+
+  .lg-search-box {
+    display: none;
+  }
+
+  .md-search-box {
+    float: right;
+  }
+
+  .md-lis-box {
+    float: left !important;
+    width: calc(100% - 35px - 120px);
+  }
+
+  .nav-content {
+    width: 442px;
+  }
+
+
+  .l-img {
+    position: relative;
+    height: 580px;
+    background: url("../images/brandconcept.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  .l-img-title {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .tc {
+    height: 282.5px;
+    background-color: #fff;
+  }
+
+  .top-c {
+    margin-bottom: 15px;
+    padding-top: 40px;
+    border: 1px solid #888;
+  }
+
+  .bottom-c {
+    background: url("../images/distributor.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .tc-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 190px;
+    margin: auto;
+    height: 70px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    line-height: 64px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+
+  .tc-text:hover {
+    color: #D9232E;
+    border-color: #D9232E;
+  }
+
+  .top-c-title {
+    font-size: 32px;
+  }
+
+  .btn-box {
+    width: 120.5px;
+    height: 34px;
+    border: 1px solid #888;
+    margin: 30px auto 0;
+    padding: 0 10px;
+  }
+
+
+  .learn {
+    color: #888;
+    line-height: 34px;
+    font-size: 12px;
+  }
+
+  .arr {
+    width: 16.5px;
+    height: 6.5px;
+    background: url("../images/grayarrow.png") no-repeat center center;
+    margin-top: 13.5px;
+    margin-left: 10px;
+    background-size: 16.5px 6.5px;
+  }
+
+  .intro {
+    width: 240px;
+    font-size: 12px;
+    margin: 20px auto 0;
+    color: #888;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+
+  .b-content,
+  .ipad-nav {
+    display: none;
+
+  }
+  
+
+  .box {
+    padding: 0 15px;
+  }
+
+  .nav-box {
+    display: none;
+  }
+
+  .m-nav-box {
+    padding-top: 15px;
+  }
+
+  .m-logo-box {
+    width: 50px;
+  }
+
+  .m-icons {
+    margin-top: 13.5px;
+  }
+
+  .m-icons>span {
+    float: left;
+    background-color: #000;
+    margin-left: 15px;
+  }
+
+  .m-icons>span:nth-child(1) {
+    width: 35px;
+    height: 29px;
+    background: url("../images/ph_nav.png") no-repeat center center;
+  }
+
+  .m-icons>span:nth-child(2) {
+    width: 32px;
+    height: 34px;
+    background: url("../images/blacksearch.png") no-repeat center center;
+  }
+
+  .m-icons>span:nth-child(3) {
+    width: 32px;
+    height: 32px;
+    background: url("../images/world.png") no-repeat center center;
+    background-size: 32px 32px;
+  }
+
+  .m-nav-box-content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+  }
+
+  .close-box {
+    height: 76px;
+  }
+
+  .close-img {
+    width: 27px;
+    height: 28px;
+    background: url("../images/close.png") no-repeat center center;
+    margin-right: 109px;
+    margin-top: 24px;
+  }
+
+  .m-list-box {
+    background-color: #D9232E;
+  }
+
+  .m-list-box>li {
+    padding: 0 15px;
+    position: relative;
+  }
+
+  .m-list-box>li>div:not(.m-c) {
+    padding: 15px 0;
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+  }
+
+  .m-list-box>li:hover>.m-c {
+    display: block;
+  }
+
+  .arrow {
+    width: 16.5px;
+    height: 10.5px;
+    margin-top: 11px;
+    background: url("../images/whiten.png") no-repeat center center;
+    transform: rotateZ(-90deg);
+    background-size: 16.5px 10.5px;
+  }
+
+  .m-c {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -1px;
+    background-color: #fff;
+    padding: 15px;
+    display: none;
+  }
+
+  .m-c>div {
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .m-c>div:hover {
+    color: #D9232E;
+  }
+
+  .m-pro-ins {
+    height: 380px;
+  }
+
+  .m-pro-img {
+    background: url("../images/brandconcept.jpg") no-repeat center;
+    background-size: cover;
+    width: 169.91px;
+    height: 198.04px;
+    
+  }
+  .m-pro{
+    width: 169.91px;
+    height: 198.04px;
+  }
+  .m-pro-ins{
+    width: 163.91px;
+    height: 198.04px;
+  }
+
+  .m-pro-title {
+    float: right;
+    margin-right: 15px;
+    margin-top: 9px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .tc {
+    height:198.04px;
+    background-color: #fff;
+  }
+
+  .top-c {
+    margin-bottom: 15px;
+    /* padding-top: 80px; */
+    border: 1px solid #888;
+  }
+
+  .top-c-title {
+    font-size: 20px;
+    color: #222222;
+    width: 100%;
+    
+    margin-top: 54px;
+  }
+
+  .btn-box {
+    width: 104.29px;
+    height: 26.36px;
+    border: 1px solid #888;
+    margin: 30px auto 0;
+    padding: 0 10px;
+    position: relative;
+  }
+
+
+  .learn {
+    color: #888;
+    line-height: 23px;
+    font-size: 8px;
+    position: absolute;
+    left: 4px;
+    top: 0;
+  }
+
+  .arr {
+    width: 16.5px;
+    height: 6.5px;
+    background: url("../images/grayarrow.png") no-repeat center center;
+    margin-top: 13.5px;
+    margin-left: 10px;
+    background-size: 16.5px 6.5px;
+    position: absolute;
+    right: 15px;
+    top: -5px;
+  }
+
+  .intro span{
+    
+    /* margin: 20px auto 0; */
+    
+
+    width: 108.39px;
+    /* margin: 0.19rem auto 0.38rem; */
+    margin:0 auto;
+    display:block;
+    font-size: 12px;
+    color: #666;
+    line-height: 15.36px;
+    height: 26.36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .m-b-content {
+    margin-top: 15px;
+    /* font-size: 625%; */
+    
+   
+  }
+
+  .global {
+    height: 206.25px;
+    background: url("../images/distributor.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+  }
+  .row-global{
+    
+    width: 345.2px;
+    height: 206.25px;
+    margin-left: -8px;
+   
+    margin-top: 15px;
+    
+  }
+ 
+
+  .global-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    padding: 
+    5px 0;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+
+  .m-nav-tabs {
+    width: 538px;
+
+  }
+
+  .m-nav-tabs>li {
+    float: left;
+    margin: 0 10px;
+  }
+
+
+  /*新加入隐藏滚动条效果*/
+  .navs {
+    overflow-x: auto;
+  }
+
+  /*滚动条整体样式*/
+  /*高宽分别对应横竖滚动条的尺寸*/
+  /* .navs::-webkit-scrollbar {
+  width: 4px;     
+  height: 4px;
+} */
+
+  /*滚动条里面小方块*/
+  /* .navs::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
+} */
+
+  /*滚动条里面轨道*/
+  /* .navs::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 0;
+  background: rgba(0,0,0,0.1);
+} */
+
+}
+
+/* @media screen and (min-width:360px) and (max-width:374px) and (orientation:portrait) {
+  html {
+    font-size: 703%;
+  }
+}
+
+@media screen and (min-width:375px) and (max-width:383px) and (orientation:portrait) {
+  html {
+    font-size: 732.4%;
+  }
+}
+
+@media screen and (min-width:384px) and (max-width:399px) and (orientation:portrait) {
+  html {
+    font-size: 750%;
+  }
+}
+
+@media screen and (min-width:400px) and (max-width:413px) and (orientation:portrait) {
+  html {
+    font-size: 781.25%;
+  }
+}
+
+@media screen and (min-width:414px) and (max-width:431px) and (orientation:portrait) {
+  html {
+    font-size: 808.6%;
+  }
+}
+
+@media screen and (min-width:432px) and (max-width:479px) and (orientation:portrait) {
+  html {
+    font-size: 843.75%;
+  }
+} */
